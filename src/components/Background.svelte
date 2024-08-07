@@ -1,7 +1,9 @@
-<script lang="ts"></script>
+<script lang="ts">
+    import srcBackground from "../assets/images/helpers/background.jpg";
+</script>
 
 <div>
-    <img draggable="false" alt={'image flip'} src={'./src/assets/images/helpers/background.jpg'} />
+    <img draggable="false" alt={'image flip'} src={srcBackground} />
 </div>
 
 

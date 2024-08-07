@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
+	import ImageFlip from "../assets/images/helpers/image-flip.jpg"
     const dispatcher = createEventDispatcher();
 
 	export let name: string;
@@ -50,7 +51,7 @@
             class="image-card-flip border-card"
             class:flip={!isFlip}
             alt={'image flip'}
-            src={'./src/assets/images/helpers/image-flip.jpg'}
+            src={ImageFlip}
         />
     </button>
 </div>

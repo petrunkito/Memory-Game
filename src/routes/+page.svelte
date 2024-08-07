@@ -2,6 +2,7 @@
 
     import "/src/assets/css/global.css";
 
+	import Background from "../components/Background.svelte";
     import Timer from "../components/Timer.svelte";
     import CardBoard from "../components/CardBoard.svelte";
     import RecordBoard from "../components/RecordBoard.svelte";
@@ -12,7 +13,6 @@
     let times: number[] = [];
 
 	import type { stateTime } from "$lib/helpers/types";
-	import Background from "../components/Background.svelte";
     let stateTimer: stateTime = "stop";
     const playAndPause = ()=> {
         stateTimer = stateTimer === "stop" || stateTimer === "finish" ? "start":"stop";

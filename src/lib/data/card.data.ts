@@ -1,104 +1,127 @@
 import type { CharacterData } from "./types";
+import archers from "../../assets/images/characters/archers.png";
+import bats from "../../assets/images/characters/bats.png";
+import bomber from "../../assets/images/characters/bomber.png";
+import dart_goblin from "../../assets/images/characters/dart_goblin.png";
+import electro_spirit from "../../assets/images/characters/electro_spirit.png";
+import elixir_golem from "../../assets/images/characters/elixir_golem.png";
+import fire_spirit from "../../assets/images/characters/fire_spirit.png";
+import goblin_gang from "../../assets/images/characters/goblin_gang.png";
+import firecracker from "../../assets/images/characters/firecracker.png";
+import goblins from "../../assets/images/characters/goblins.png";
+import guards from "../../assets/images/characters/guards.png";
+import heal_spirit from "../../assets/images/characters/heal_spirit.png";
+import ice_golem from "../../assets/images/characters/ice_golem.png";
+import ice_spirit from "../../assets/images/characters/ice_spirit.png";
+import ice_wizard from "../../assets/images/characters/ice_wizard.png";
+import knight from "../../assets/images/characters/knight.png";
+import minions from "../../assets/images/characters/minions.png";
+import mega_minion from "../../assets/images/characters/mega_minion.png";
+import skeleton_army from "../../assets/images/characters/skeleton_army.png";
+import skeleton_barrel from "../../assets/images/characters/skeleton_barrel.png";
+import skeletons from "../../assets/images/characters/skeletons.png";
+import spear_goblins from "../../assets/images/characters/spear_goblins.png";
+import valkyrie from "../../assets/images/characters/valkyrie.png";
+import wall_breakers from "../../assets/images/characters/wall_breakers.png";
+
 
 export const patchImages = "/src/assets/images/characters/"
 export const charactersData: CharacterData[] = [
     {
         name:"archers",
-        src:patchImages + "archers.png"
+        src:archers
     },
     {
         name:"bats",
-        src:patchImages + "bats.png"
+        src:bats
     },
     {
         name:"bomber",
-        src:patchImages + "bomber.png"
+        src:bomber
     },
     {
         name:"dart_goblin",
-        src:patchImages + "dart_goblin.png"
+        src:dart_goblin
     },
     {
         name:"electro_spirit",
-        src:patchImages + "electro_spirit.png"
+        src:electro_spirit
     },
     {
         name:"elixir_golem",
-        src:patchImages + "elixir_golem.png"
+        src:elixir_golem
     },
     {
         name:"fire_spirit",
-        src:patchImages + "fire_spirit.png"
+        src:fire_spirit
     },
     {
         name:"firecracker",
-        src:patchImages + "firecracker.png"
+        src:firecracker
     },
     {
         name:"goblin_gang",
-        src:patchImages + "goblin_gang.png"
+        src:goblin_gang
     },
     {
         name:"goblins",
-        src:patchImages + "goblins.png"
+        src:goblins
     },
     {
         name:"guards",
-        src:patchImages + "guards.png"
+        src:guards
     },
     {
         name:"heal_spirit",
-        src:patchImages + "heal_spirit.png"
+        src:heal_spirit
     },
     {
         name:"ice_golem",
-        src:patchImages + "ice_golem.png"
+        src:ice_golem
     },
     {
         name:"ice_spirit",
-        src:patchImages + "ice_spirit.png"
+        src:ice_spirit
     },
     {
         name:"ice_wizard",
-        src:patchImages + "ice_wizard.png"
+        src:ice_wizard
     },
     {
         name:"knight",
-        src:patchImages + "knight.png"
+        src:knight
     },
     {
         name:"minions",
-        src:patchImages + "minions.png"
+        src:minions
     },
     {
         name:"mega_minion",
-        src:patchImages + "mega_minion.png"
+        src:mega_minion
     },
-    // 
-
     {
         name:"skeleton_army",
-        src:patchImages + "skeleton_army.png"
+        src:skeleton_army
     },
     {
         name:"skeleton_barrel",
-        src:patchImages + "skeleton_barrel.png"
+        src:skeleton_barrel
     },
     {
         name:"skeletons",
-        src:patchImages + "skeletons.png"
+        src:skeletons
     },
     {
         name:"spear_goblins",
-        src:patchImages + "spear_goblins.png"
+        src:spear_goblins
     },
     {
         name:"valkyrie",
-        src:patchImages + "valkyrie.png"
+        src:valkyrie
     },
     {
         name:"wall_breakers",
-        src:patchImages + "wall_breakers.png"
+        src:wall_breakers
     },
 
 ]
