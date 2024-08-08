@@ -3,7 +3,7 @@ import adapter from '@sveltejs/adapter-static';
 export default {
 	kit: {
 		adapter: adapter({
-			// default options are shown. On some platforms
+			// default options are shown. On some platformss
 			// these options are set automatically — see below
 			pages: 'build',
 			assets: 'build',
